@@ -1,6 +1,6 @@
 export default function MediaElementPool() {
-    const maxPrimedTags = 3;
-    const elements = [];
+    const     maxPrimedTags     =   5   ;
+    const   elements = [];
     const pool = [];
     for (let i = 0; i < maxPrimedTags; i++) {
         const mediaElement = document.createElement('video');
